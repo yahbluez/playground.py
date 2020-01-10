@@ -1,7 +1,7 @@
 from random import random
 
 def MonteCarloPI(versuche = 1000000):
-    pi, im = 0, 0 
+    im = 0
     for loop in range(versuche):
         Xcord = random()
         Ycord = random()
